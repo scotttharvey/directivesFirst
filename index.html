@@ -8,7 +8,7 @@
 
 
       <ul>
-        <lesson-hider ng-repeat="lesson in lessons" lesson="lesson" ></lesson-hider>
+        <lesson-hider ng-repeat="lesson in lessons" lesson="lesson" day-alert="announceDay(lesson, day)"></lesson-hider>
     </ul>
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.js" charset="utf-8"></script>
